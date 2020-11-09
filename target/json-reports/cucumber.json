@@ -1,0 +1,219 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Google Sayfasina gider",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "kullanici google sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.A_1_GoogleAramaStepDefinitions.kullanici_google_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-09T08:50:13.741Z",
+        "line": 11,
+        "name": "TC01_Kullanici google cucumber aramsi yapar",
+        "description": "",
+        "id": "google-arama;tc01-kullanici-google-cucumber-aramsi-yapar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "arama kutusuna cucumber yazar",
+            "match": {
+              "location": "stepdefinitions.A_1_GoogleAramaStepDefinitions.arama_kutusuna_cucumber_yazar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "arama sonuclari sayfasinin basligini kontrol eder",
+            "match": {
+              "location": "stepdefinitions.A_1_GoogleAramaStepDefinitions.arama_sonuclari_sayfasinin_basligini_kontrol_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googleArama"
+          },
+          {
+            "name": "@cucumberArama"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Google Sayfasina gider",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "kullanici google sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.A_1_GoogleAramaStepDefinitions.kullanici_google_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-09T08:50:14.059Z",
+        "line": 16,
+        "name": "TC02_kullanici googleda selenium aramasi yapar",
+        "description": "",
+        "id": "google-arama;tc02-kullanici-googleda-selenium-aramasi-yapar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "arama kutusuna selenium yazar",
+            "match": {
+              "location": "stepdefinitions.A_1_GoogleAramaStepDefinitions.arama_kutusuna_selenium_yazar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "arama sonuclari sayfasinin sonuc sayisini kontrol eder",
+            "match": {
+              "location": "stepdefinitions.A_1_GoogleAramaStepDefinitions.arama_sonuclari_sayfasinin_sonuc_sayisini_kontrol_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googleArama"
+          },
+          {
+            "name": "@seleniumArama"
+          }
+        ]
+      }
+    ],
+    "name": "Google Arama",
+    "description": "",
+    "id": "google-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/1_1_googlearama.feature",
+    "tags": [
+      {
+        "name": "@googleArama",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 3
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-09T08:50:14.086Z",
+        "line": 3,
+        "name": "TC01_Kullanici google cucumber aramsi yapar",
+        "description": "",
+        "id": "google-arama;tc01-kullanici-google-cucumber-aramsi-yapar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "kullanici google sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.A_1_GoogleAramaStepDefinitions.kullanici_google_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "arama kutusuna cucumber yazar",
+            "match": {
+              "location": "stepdefinitions.A_1_GoogleAramaStepDefinitions.arama_kutusuna_cucumber_yazar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "arama sonuclari sayfasinin basligini kontrol eder",
+            "match": {
+              "location": "stepdefinitions.A_1_GoogleAramaStepDefinitions.arama_sonuclari_sayfasinin_basligini_kontrol_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googleArama"
+          }
+        ]
+      }
+    ],
+    "name": "Google Arama",
+    "description": "",
+    "id": "google-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/googleArama.feature",
+    "tags": [
+      {
+        "name": "@googleArama",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

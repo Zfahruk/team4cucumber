@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="1.917">
+<testcase classname="Google Arama" name="TC01_Kullanici google cucumber aramsi yapar" time="0.235">
+<system-out><![CDATA[Given kullanici google sayfasina gider......................................skipped
+And arama kutusuna cucumber yazar...........................................skipped
+Then arama sonuclari sayfasinin basligini kontrol eder......................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Google Arama" name="TC02_kullanici googleda selenium aramasi yapar" time="0.01">
+<system-out><![CDATA[Given kullanici google sayfasina gider......................................skipped
+And arama kutusuna selenium yazar...........................................skipped
+Then arama sonuclari sayfasinin sonuc sayisini kontrol eder.................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Google Arama" name="TC01_Kullanici google cucumber aramsi yapar" time="0.068">
+<system-out><![CDATA[Given kullanici google sayfasina gider......................................skipped
+And arama kutusuna cucumber yazar...........................................skipped
+Then arama sonuclari sayfasinin basligini kontrol eder......................skipped
+]]></system-out>
+</testcase>
+</testsuite>
